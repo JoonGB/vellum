@@ -16,7 +16,6 @@ Comunicación asíncrona con RabbitMQ. CI/CD con Jenkins y análisis de calidad 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JoonGB/vellum?color=blue)
 ![GitHub issues](https://img.shields.io/github/issues/JoonGB/vellum)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/JoonGB/vellum)
-![GitHub](https://img.shields.io/github/license/JoonGB/vellum)
 
 ---
 

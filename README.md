@@ -9,28 +9,6 @@
 Autenticación con Keycloak + JWT. Datos en PostgreSQL (transacciones) y MongoDB (chat).  
 Comunicación asíncrona con RabbitMQ. CI/CD con Jenkins y análisis de calidad con SonarQube.
 
-```mermaid
-graph TD
-    A[Frontend React] --> B[API Gateway]
-    B --> C[User Service]
-    B --> D[Book Service]
-    B --> E[Exchange Service]
-    B --> F[Chat Service]
-    C --> G[(PostgreSQL)]
-    D --> G
-    E --> G
-    E --> H{{RabbitMQ}}
-    F --> I[(MongoDB)]
-    F --> H
-    H --> J[Notification Service]
-
----
-
-# Vellum
-
-🚀 **Vellum** es una plataforma moderna desarrollada con una arquitectura de microservicios, diseñada para ser escalable, segura y eficiente.  
-Este repositorio reúne el código, documentación y lineamientos técnicos del proyecto.
-
 ---
 
 ## 📊 Estado del proyecto
@@ -95,6 +73,23 @@ Este repositorio reúne el código, documentación y lineamientos técnicos del 
 ### 📊 Observabilidad
 - **Métricas:** [Prometheus](https://prometheus.io/)
 - **Dashboards:** [Grafana](https://grafana.com/)
+
+
+```mermaid
+graph TD
+    A[Frontend React] --> B[API Gateway]
+    B --> C[User Service]
+    B --> D[Book Service]
+    B --> E[Exchange Service]
+    B --> F[Chat Service]
+    C --> G[(PostgreSQL)]
+    D --> G
+    E --> G
+    E --> H{{RabbitMQ}}
+    F --> I[(MongoDB)]
+    F --> H
+    H --> J[Notification Service]
+```
 
 ---
 
